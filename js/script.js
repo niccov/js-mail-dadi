@@ -35,11 +35,15 @@ emailButton.addEventListener("click", function () {
     }
 
     if (isAuthorized) {
-        console.log('Accesso consentito');
-        access.innerText = "Benvenuto"
+
+        access.innerText = "Benvenuto";
+        access.style.color = "green";
+
     } else {
-        console.log('Accesso negato');
-        access.innerText = "Accesso negato"
+        
+        access.innerText = "Accesso negato";
+        access.style.color = "red";
+
     }
 })
 

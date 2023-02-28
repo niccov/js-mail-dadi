@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-email{
+    width: 85%;
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 20px 20px 20px;
+
+    border: 1px solid black;
+}
+
+.container-email h3{
+    text-align: center;
+}
+
+#login{
+    display: inline-block;
+
+    margin-left: 70px;
+
+    font-size: 22px;
+}
+
+h2{
+    color: red;
+
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.container-dice-game{
+    margin: auto;
+    width: 200px;
+}
+
+#throw{
+    padding: 15px;
+    width: 200px;
+
+    color: red;
+    font-size: 20px;
+}
+
+#risultato{
+    margin: 20px;
+
+    padding: 5px;
+}
